@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/JulioCesarRamirez/bankAPI/issues"
   },
-  "homepage": "https://github.com/JulioCesarRamirez/bankAPI#readme"
+  "homepage": "https://github.com/JulioCesarRamirez/bankAPI#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.13",
+    "nodemon": "^1.18.6"
+  }
 }
