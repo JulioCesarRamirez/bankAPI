@@ -24,7 +24,7 @@ exports.addUser = function (req, res) {
 }
 
 exports.getUserById = function (req, res) {
-  User.findById(req.body.userName, (err, user) => {
+  User.findOne({'phoneNumber': req.body.phoneNumber}, (err, user) => {
     if (err) {
       res.status(404).send(err);
     }

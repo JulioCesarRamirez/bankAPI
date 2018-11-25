@@ -17,6 +17,12 @@ var UserSchema = new Schema({
   password: {
     type: String
   },
+  mail:{
+    type:String
+  },
+  phoneNumber:{
+    type:Number
+  },
   accountNumber: {
     type: String
   },
