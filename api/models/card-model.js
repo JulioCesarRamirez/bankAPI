@@ -17,7 +17,7 @@ var CardSchema = new Schema({
   status: {
     type: Number
   },
-  userId: {
+  phoneNumber: {
     type: String
   }
 });
