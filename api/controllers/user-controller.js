@@ -1,5 +1,5 @@
-const monoose = require('mongoose'),
-  User = monoose.model('User'),
+const mongoose = require('mongoose'),
+  User = mongoose.model('User'),
   jwt = require('jsonwebtoken'),
   bcrypt = require('bcrypt');
 

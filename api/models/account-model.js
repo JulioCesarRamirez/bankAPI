@@ -5,7 +5,7 @@ var AccountSchema = new Schema({
   id: {
     type: Schema.Types.ObjectId
   },
-  userId:{
+  phoneNumber:{
     type: String
   },
   products:{
